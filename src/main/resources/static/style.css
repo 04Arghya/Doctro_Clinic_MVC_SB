@@ -1,0 +1,172 @@
+/* src/main/resources/static/style.css */
+
+/* General Body Styling */
+body {
+    font-family: 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    background-color: #f8f9fa; /* Light gray background */
+    color: #343a40; /* Dark text color */
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: #28a745; /* Success green */
+    padding: 1rem 0;
+}
+.navbar-brand {
+    font-weight: 700;
+    font-size: 1.8rem;
+    color: #ffffff !important; /* White text */
+}
+.navbar-nav .nav-link {
+    color: #ffffff !important; /* White text */
+    font-weight: 500;
+    margin-left: 15px;
+    transition: color 0.3s ease-in-out;
+}
+.navbar-nav .nav-link:hover {
+    color: #e2e6ea !important; /* Lighter white on hover */
+}
+.btn-outline-light {
+    border-color: #ffffff;
+    color: #ffffff;
+}
+.btn-outline-light:hover {
+    background-color: #ffffff;
+    color: #28a745;
+}
+
+/* Hero Section (Index Page) */
+.hero-section {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/images/hero_banner.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+    min-height: 60vh; /* Minimum height for better appearance */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.hero-section h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+}
+.hero-section p {
+    font-size: 1.5rem;
+    max-width: 800px;
+    margin: 0 auto 30px;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+}
+
+/* Section Styling (About Us, Services, Contact) */
+.section-heading {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+    color: #28a745; /* Green heading */
+    font-weight: 600;
+}
+.section-content {
+    padding: 40px 0;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    margin-bottom: 30px;
+}
+.section-content img {
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Contact Section Specifics */
+#contact .form-control:focus {
+    border-color: #28a745;
+    box-shadow: 0 0 0 0.25rem rgba(40, 167, 69, 0.25);
+}
+#contact .btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+#contact .btn-success:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+
+/* Footer Styling */
+.footer {
+    background-color: #343a40; /* Dark gray */
+    color: #f8f9fa;
+    padding: 30px 0;
+    text-align: center;
+    margin-top: 50px;
+}
+.footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+/* Dashboard Specifics */
+.container.mt-5, .container.mt-4 { /* Target existing dashboard containers */
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+}
+.dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+    border-bottom: 1px solid #dee2e6;
+    padding-bottom: 15px;
+}
+.dashboard-header h2 {
+    margin: 0;
+    color: #007bff; /* General primary blue for dashboard headers */
+}
+.dashboard-header h2.text-info { /* Doctor dashboard specific */
+    color: #17a2b8 !important;
+}
+.dashboard-header h2.text-success { /* User dashboard specific */
+    color: #28a745 !important;
+}
+
+.table thead th {
+    background-color: #007bff;
+    color: white;
+}
+.table-bordered th, .table-bordered td {
+    border-color: #dee2e6;
+}
+.alert {
+    border-radius: 5px;
+}
+
+/* Doctor Card Specifics */
+.card {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    transition: transform 0.2s ease-in-out;
+}
+.card:hover {
+    transform: translateY(-5px);
+}
+.card-img-top {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.card-body {
+    padding: 20px;
+}
+.card-title {
+    color: #007bff;
+    font-weight: 600;
+}
+.card-text {
+    font-size: 0.95rem;
+    color: #6c757d;
+}
