@@ -1,0 +1,185 @@
+Here's the updated index.jsp file. I've added an inline style to the <section class="hero-section"> to include a doctor image in the background.
+
+I've used a placeholder image URL for the doctor. If you have a specific image file for the doctor (e.g., in your /images/ folder), you can replace https://placehold.co/1200x600/609966/FFFFFF?text=Doctor+Image with your actual image path (e.g., /images/doctor_hero.jpg).
+
+<%-- src/main/webapp/WEB-INF/jsp/index.jsp --%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<html>
+<head>
+    <title>Orgos Doctor Clinic - Home</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/style.css"> <%-- Link to your custom CSS --%>
+    <style>
+        /* Add custom styles here or in style.css */
+        .hero-section {
+            background-image: url('/images/DoctorHero.jpg); /* Placeholder doctor image */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            min-height: 500px; /* Ensure enough height for the image to show */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff; /* Ensure text is visible over the image */
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Add shadow for better readability */
+            position: relative; /* Needed for overlay */
+            z-index: 1; /* Ensure content is above overlay */
+        }
+        .hero-section::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.4); /* Dark overlay for better text contrast */
+            z-index: -1; /* Place overlay behind content */
+        }
+        .hero-section .container {
+            z-index: 2; /* Ensure container content is above the overlay */
+        }
+        .hero-section h1 {
+            font-size: 3.5rem;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .hero-section p.lead {
+            font-size: 1.5rem;
+            margin-bottom: 30px;
+        }
+        .section-content {
+            padding: 60px 0;
+            border-bottom: 1px solid #eee;
+        }
+        .section-content:last-child {
+            border-bottom: none;
+        }
+        .section-heading {
+            text-align: center;
+            margin-bottom: 40px;
+            font-size: 2.5rem;
+            color: #2c3e50;
+        }
+        .img-fluid {
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        .footer {
+            background-color: #34495e;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            margin-top: 40px;
+            border-radius: 0 0 12px 12px;
+        }
+    </style>
+</head>
+<body>
+    <%-- Include Header (this already handles login/logout links in the navbar) --%>
+    <jsp:include page="common/header.jsp" />
+
+    <section class="hero-section">
+        <div class="container">
+            <c:choose>
+                <c:when test="${sessionScope.loggedInUser != null}">
+                    <%-- Display welcome message when logged in --%>
+                    <h1>Welcome, ${sessionScope.loggedInUser.name}!</h1>
+                    <p class="lead">We're glad to see you back. Explore doctors or view your appointments.</p>
+                    <div>
+                        <c:if test="${sessionScope.loggedInUser.role eq 'PATIENT'}">
+                            <a href="/userDashboard" class="btn btn-success btn-lg me-3">View Dashboard</a>
+                        </c:if>
+                        <c:if test="${sessionScope.loggedInUser.role eq 'DOCTOR'}">
+                            <a href="/doctorDashboard" class="btn btn-success btn-lg me-3">View Dashboard</a>
+                        </c:if>
+                        <c:if test="${sessionScope.loggedInUser.role eq 'ADMIN'}">
+                            <a href="/admin/dashboard" class="btn btn-success btn-lg me-3">View Dashboard</a>
+                        </c:if>
+                        <a href="/logout" class="btn btn-outline-light btn-lg">Logout</a>
+                    </div>
+                </c:when>
+                <c:otherwise>
+                    <%-- Display signup/login buttons when logged out --%>
+                    <h1>Your Health, Our Priority</h1>
+                    <p class="lead">Providing compassionate and expert care for a healthier tomorrow.</p>
+                    <div>
+                        <a href="/signup" class="btn btn-success btn-lg me-3">Get Started</a>
+                        <a href="/login" class="btn btn-outline-light btn-lg">Existing User?</a>
+                    </div>
+                </c:otherwise>
+            </c:choose>
+        </div>
+    </section>
+
+    <div class="container">
+        <section id="description" class="section-content">
+            <h2 class="section-heading">Welcome to Orgos Clinic</h2>
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <img src="/images/unnamed.jpg" alt="Clinic Interior" class="img-fluid mb-3">
+                </div>
+                <div class="col-md-6">
+                    <p>At Orgos Clinic, we are dedicated to providing comprehensive and compassionate healthcare services. Our team of experienced doctors and staff are committed to your well-being, offering personalized care tailored to your needs.</p>
+                    <p>From routine check-ups to specialized treatments, we utilize state-of-the-art technology and a patient-centric approach to ensure the best possible outcomes. Trust us to be your partner in health.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section-content">
+            <h2 class="section-heading">About Us</h2>
+            <div class="row align-items-center flex-row-reverse">
+                <div class="col-md-6">
+                    <img src="/images/AboutUs.png" alt="Our Team" class="img-fluid mb-3">
+                </div>
+                <div class="col-md-6">
+                    <p>Orgos Clinic was founded with a vision to make quality healthcare accessible and affordable. We believe in a holistic approach to health, focusing not just on treating illnesses but also on preventative care and promoting overall wellness.</p>
+                    <p>Our clinic boasts a diverse team of specialists across various disciplines, all united by a common goal: to provide exceptional medical care with integrity and empathy.</p>
+                    <p>We are constantly striving to update our knowledge and technology to serve you better.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section-content">
+            <h2 class="section-heading">Contact Us</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <p>Have questions or need to schedule an appointment? Feel free to reach out to us!</p>
+                    <ul class="list-unstyled">
+                        <li><strong>Address:</strong> 123 Clinic Road, Health City, Country</li>
+                        <li><strong>Phone:</strong> +91 98765 43210</li>
+                        <li><strong>Email:</strong> info@orgozclinic.com</li>
+                        <li><strong>Hours:</strong> Mon-Fri: 9 AM - 6 PM</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <form>
+                        <div class="mb-3">
+                            <label for="contactName" class="form-label">Your Name</label>
+                            <input type="text" class="form-control" id="contactName" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="contactEmail" class="form-label">Your Email</label>
+                            <input type="email" class="form-control" id="contactEmail" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="contactMessage" class="form-label">Message</label>
+                            <textarea class="form-control" id="contactMessage" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-success">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <%-- Footer --%>
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Orgos Doctor Clinic. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

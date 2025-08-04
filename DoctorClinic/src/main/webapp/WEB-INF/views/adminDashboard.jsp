@@ -1,0 +1,172 @@
+<%-- src/main/webapp/WEB-INF/jsp/adminDashboard.jsp --%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
+
+<html>
+<head>
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="/style.css">
+    <style>
+        .dashboard-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        .card-header-custom {
+            display: flex;
+            align-items: center;
+        }
+        .card-header-custom i {
+            margin-right: 10px;
+        }
+        .doctor-table-photo {
+            width: 50px;
+            height: 50px;
+            object-fit: cover;
+            border-radius: 5px;
+            vertical-align: middle;
+        }
+        .action-buttons {
+            min-width: 80px;
+        }
+    </style>
+</head>
+<body>
+    <jsp:include page="common/header.jsp" />
+
+    <div class="container py-5">
+        <div class="dashboard-header">
+            <h2 class="text-primary"><i class="fas fa-tachometer-alt"></i> Admin Dashboard</h2>
+            <a href="/admin/addDoctor" class="btn btn-success"><i class="fas fa-plus-circle"></i> Add New Doctor</a>
+        </div>
+
+        <p class="mb-4 lead">Welcome, ${loggedInUser.name}!</p>
+
+        <c:if test="${not empty successMessage}">
+            <div class="alert alert-success alert-dismissible fade show" role="alert">
+                ${successMessage}
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+        </c:if>
+        <c:if test="${not empty errorMessage}">
+            <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                ${errorMessage}
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+        </c:if>
+
+        <div class="card shadow-sm mb-5">
+            <div class="card-header card-header-custom bg-info text-white">
+                <i class="fas fa-calendar-check"></i>
+                <h3 class="my-0">All Appointments</h3>
+            </div>
+            <div class="card-body">
+                <c:choose>
+                    <c:when test="${not empty allAppointments}">
+                        <div class="table-responsive">
+                            <table class="table table-bordered table-striped table-hover">
+                                <thead class="table-light">
+                                    <tr>
+                                        <th>Patient</th>
+                                        <th>Doctor</th>
+                                        <th>Date</th>
+                                        <th>Time</th>
+                                        <th>Actions</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <c:forEach var="appt" items="${allAppointments}">
+                                        <tr>
+                                            <td>${appt.user.name}</td>
+                                            <td>${appt.doctor.name}</td>
+                                            <td>${appt.date}</td>
+                                            <td>${appt.time}</td>
+                                            <td>
+                                                <a href="/admin/appointmentDetails?id=${appt.id}" class="btn btn-sm btn-info text-white me-1"><i class="fas fa-info-circle"></i> Details</a>
+                                                <form action="/admin/deleteAppointment" method="post" class="d-inline" onsubmit="return confirm('Are you sure you want to delete this appointment?');">
+                                                    <input type="hidden" name="id" value="${appt.id}">
+                                                    <button type="submit" class="btn btn-sm btn-danger"><i class="fas fa-trash-alt"></i></button>
+                                                </form>
+                                            </td>
+                                        </tr>
+                                    </c:forEach>
+                                </tbody>
+                            </table>
+                        </div>
+                    </c:when>
+                    <c:otherwise>
+                        <div class="alert alert-info" role="alert">
+                            No appointments have been scheduled yet.
+                        </div>
+                    </c:otherwise>
+                </c:choose>
+            </div>
+        </div>
+
+        <div class="card shadow-sm mb-5">
+            <div class="card-header card-header-custom bg-primary text-white">
+                <i class="fas fa-user-md"></i>
+                <h3 class="my-0">Registered Doctors</h3>
+            </div>
+            <div class="card-body">
+                <c:if test="${empty doctors}">
+                    <div class="alert alert-info" role="alert">
+                        No doctors registered yet.
+                    </div>
+                </c:if>
+                <c:if test="${not empty doctors}">
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped table-hover">
+                            <thead class="table-light">
+                                <tr>
+                                    <th>ID</th>
+                                    <th>Photo</th>
+                                    <th>Name</th>
+                                    <th>Specialization</th>
+                                    <th>Experience</th>
+                                    <th>Linked User Email</th>
+                                    <th class="action-buttons">Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <c:forEach var="doctor" items="${doctors}">
+                                    <tr>
+                                        <td>${doctor.id}</td>
+                                        <td>
+                                            <img src="${doctor.photoUrl}" alt="${doctor.name} Photo" class="doctor-table-photo">
+                                        </td>
+                                        <td>${doctor.name}</td>
+                                        <td>${doctor.specialization}</td>
+                                        <td>${doctor.experience} years</td>
+                                        <td>${doctor.user.email}</td>
+                                        <td>
+                                            <form action="/admin/deleteDoctor" method="post" onsubmit="return confirm('Are you sure you want to delete doctor: ${doctor.name}?');">
+                                                <input type="hidden" name="id" value="${doctor.id}">
+                                                <button type="submit" class="btn btn-danger btn-sm"><i class="fas fa-trash-alt"></i> Delete</button>
+                                            </form>
+                                        </td>
+                                    </tr>
+                                </c:forEach>
+                            </tbody>
+                        </table>
+                    </div>
+                </c:if>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Orgos Doctor Clinic. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<%-- admin/dashboard.jsp --%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
+
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-12">
+            <h2 class="mb-4">Admin Dashboard</h2>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header bg-success text-white">
+            <h5 class="mb-0">All Scheduled Appointments</h5>
+        </div>
+        <div class="card-body">
+            <c:choose>
+                <c:when test="${not empty allAppointments}">
+                    <table class="table table-hover table-bordered">
+                        <thead>
+                            <tr>
+                                <th>Appointment ID</th>
+                                <th>Patient Name</th>
+                                <th>Doctor Name</th>
+                                <th>Date</th>
+                                <th>Time</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <c:forEach var="appt" items="${allAppointments}">
+                                <tr>
+                                    <td>${appt.id}</td>
+                                    <td>${appt.patient.name}</td>
+                                    <td>${appt.doctor.name}</td>
+                                    <td><fmt:formatDate value="${appt.startTime}" pattern="dd-MM-yyyy"/></td>
+                                    <td>
+                                        <fmt:formatDate value="${appt.startTime}" pattern="hh:mm a"/> - <fmt:formatDate value="${appt.endTime}" pattern="hh:mm a"/>
+                                    </td>
+                                    <td>
+                                        <span class="badge 
+                                            <c:choose>
+                                                <c:when test="${appt.status eq 'BOOKED'}">bg-primary</c:when>
+                                                <c:when test="${appt.status eq 'COMPLETED'}">bg-success</c:when>
+                                                <c:when test="${appt.status eq 'CANCELLED'}">bg-danger</c:when>
+                                                <c:otherwise>bg-secondary</c:otherwise>
+                                            </c:choose>
+                                        ">${appt.status}</span>
+                                    </td>
+                                </tr>
+                            </c:forEach>
+                        </tbody>
+                    </table>
+                </c:when>
+                <c:otherwise>
+                    <div class="alert alert-info" role="alert">
+                        No appointments have been scheduled yet.
+                    </div>
+                </c:otherwise>
+            </c:choose>
+        </div>
+    </div>
+</div>

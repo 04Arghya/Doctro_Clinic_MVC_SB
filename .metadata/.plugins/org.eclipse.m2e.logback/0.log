@@ -1,0 +1,765 @@
+2025-07-25 09:40:09,803 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is not available. Remote download required.
+2025-07-25 09:43:22,731 [Worker-11: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.doctorclinic:spring-webmvc:0.0.1-SNAPSHOT @ C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\doctor-app\pom.xml.
+2025-07-25 09:43:24,003 [Worker-11: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /doctor-app/src/main/java
+2025-07-25 09:43:24,005 [Worker-11: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /doctor-app/src/main/resources
+2025-07-25 09:43:24,011 [Worker-11: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /doctor-app/src/main/resources
+2025-07-25 09:43:24,016 [Worker-11: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /doctor-app/src/test/java
+2025-07-25 09:43:24,017 [Worker-11: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /doctor-app/src/test/resources
+2025-07-25 09:43:25,193 [Worker-11: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 4 sec
+2025-07-25 09:43:25,204 [Worker-11: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-07-25 09:43:25,805 [Worker-11: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.doctorclinic:spring-webmvc:0.0.1-SNAPSHOT @ C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\doctor-app\pom.xml.
+2025-07-25 09:43:26,493 [Worker-11: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /doctor-app/src/main/java
+2025-07-25 09:43:26,494 [Worker-11: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /doctor-app/src/main/resources
+2025-07-25 09:43:26,496 [Worker-11: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /doctor-app/src/main/resources
+2025-07-25 09:43:26,497 [Worker-11: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /doctor-app/src/test/java
+2025-07-25 09:43:26,499 [Worker-11: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /doctor-app/src/test/resources
+2025-07-25 09:43:27,064 [Worker-11: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 1.00 sec, update config takes 0.00 sec 
+2025-07-25 09:43:28,107 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-25 09:43:28,143 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 09:43:28,153 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\doctor-app\src\test\resources
+2025-07-25 09:46:11,687 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 09:46:11,688 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 09:46:11,695 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\doctor-app\src\test\resources
+2025-07-25 09:46:26,595 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 09:46:26,597 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 09:46:26,602 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\doctor-app\src\test\resources
+2025-07-25 09:46:47,048 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 09:46:47,049 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 09:46:47,053 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\doctor-app\src\test\resources
+2025-07-25 09:46:54,210 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 09:46:54,212 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 09:46:54,218 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\doctor-app\src\test\resources
+2025-07-25 09:47:19,831 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 09:47:19,833 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 09:47:19,840 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\doctor-app\src\test\resources
+2025-07-25 09:47:23,892 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 09:47:23,893 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 09:47:23,897 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\doctor-app\src\test\resources
+2025-07-25 09:47:40,152 [Worker-12: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/5.3.34/spring-webmvc-5.3.34.pom
+2025-07-25 09:47:40,163 [Worker-12: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/5.3.34/spring-webmvc-5.3.34.pom
+2025-07-25 09:47:40,221 [Worker-12: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-web/5.3.34/spring-web-5.3.34.pom
+2025-07-25 09:47:40,229 [Worker-12: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-web/5.3.34/spring-web-5.3.34.pom
+2025-07-25 09:47:40,259 [Worker-12: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1.pom
+2025-07-25 09:47:40,275 [Worker-12: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1.pom
+2025-07-25 09:47:40,315 [Worker-12: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+2025-07-25 09:47:40,354 [Worker-12: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/5.3.34/spring-webmvc-5.3.34.jar
+2025-07-25 09:47:40,522 [Worker-12: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/5.3.34/spring-webmvc-5.3.34.jar
+2025-07-25 09:47:40,532 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1.jar
+2025-07-25 09:47:40,550 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1.jar
+2025-07-25 09:47:40,559 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-web/5.3.34/spring-web-5.3.34.jar
+2025-07-25 09:47:40,970 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-web/5.3.34/spring-web-5.3.34.jar
+2025-07-25 09:47:41,383 [Worker-12: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.doctorclinic:DoctorClinicApp:1.0.0 @ C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\doctor-app\pom.xml.
+2025-07-25 09:47:41,388 [Worker-12: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+2025-07-25 09:47:42,229 [Worker-12: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-07-25 09:47:42,233 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 09:47:42,237 [Worker-12: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-07-25 09:47:42,238 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\doctor-app\src\test\resources
+2025-07-25 09:47:42,777 [Worker-2: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-07-25 09:47:42,897 [Worker-2: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.doctorclinic:DoctorClinicApp:1.0.0 @ C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\doctor-app\pom.xml.
+2025-07-25 09:47:42,942 [Worker-2: Updating Maven Project] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+2025-07-25 09:47:43,234 [Worker-0: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/5.3.34/spring-webmvc-5.3.34-sources.jar
+2025-07-25 09:47:43,359 [Worker-0: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/5.3.34/spring-webmvc-5.3.34-sources.jar
+2025-07-25 09:47:43,366 [Worker-0: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-webmvc:5.3.34
+2025-07-25 09:47:43,406 [Worker-0: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-web/5.3.34/spring-web-5.3.34-sources.jar
+2025-07-25 09:47:43,674 [Worker-0: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-web/5.3.34/spring-web-5.3.34-sources.jar
+2025-07-25 09:47:43,680 [Worker-0: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-web:5.3.34
+2025-07-25 09:47:43,726 [Worker-0: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1-sources.jar
+2025-07-25 09:47:43,766 [Worker-0: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1-sources.jar
+2025-07-25 09:47:43,771 [Worker-0: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for javax.servlet:javax.servlet-api:4.0.1
+2025-07-25 09:47:43,774 [Worker-2: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /doctor-app/src/main/java
+2025-07-25 09:47:43,776 [Worker-2: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /doctor-app/src/main/resources
+2025-07-25 09:47:43,795 [Worker-2: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /doctor-app/src/test/java
+2025-07-25 09:47:43,796 [Worker-2: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /doctor-app/src/test/resources
+2025-07-25 09:47:44,671 [Worker-2: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2025-07-25 09:47:45,216 [Worker-11: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-07-25 09:47:45,218 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-25 09:47:45,234 [Worker-11: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-07-25 09:47:45,235 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\doctor-app\src\test\resources
+2025-07-25 09:48:06,719 [Worker-6: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.doctorclinic:DoctorClinicApp:1.0.0 @ C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\doctor-app\pom.xml.
+2025-07-25 09:48:06,748 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+2025-07-25 09:48:06,923 [Worker-6: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-07-25 09:48:06,927 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 09:48:06,932 [Worker-6: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-07-25 09:48:06,934 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\doctor-app\src\test\resources
+2025-07-25 09:48:38,069 [Worker-14: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.doctorclinic:spring-webmvc:0.0.1-SNAPSHOT @ C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\doctor-app\pom.xml.
+2025-07-25 09:48:38,103 [Worker-14: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+2025-07-25 09:48:38,309 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-25 09:48:38,328 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 09:48:38,338 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\doctor-app\src\test\resources
+2025-07-25 09:48:38,674 [Worker-9: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-07-25 09:48:39,278 [Worker-9: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.doctorclinic:spring-webmvc:0.0.1-SNAPSHOT @ C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\doctor-app\pom.xml.
+2025-07-25 09:48:39,323 [Worker-9: Updating Maven Project] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+2025-07-25 09:48:39,487 [Worker-9: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /doctor-app/src/main/java
+2025-07-25 09:48:39,496 [Worker-9: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /doctor-app/src/main/resources
+2025-07-25 09:48:39,503 [Worker-9: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /doctor-app/src/main/resources
+2025-07-25 09:48:39,510 [Worker-9: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /doctor-app/src/test/java
+2025-07-25 09:48:39,512 [Worker-9: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /doctor-app/src/test/resources
+2025-07-25 09:48:39,769 [Worker-9: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2025-07-25 09:48:40,152 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-25 09:48:40,179 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 09:48:40,187 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\doctor-app\src\test\resources
+2025-07-25 09:55:36,700 [Worker-13: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.doctorclinic:doctorclinic:0.0.1-SNAPSHOT @ C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinicApp\pom.xml.
+2025-07-25 09:55:37,099 [Worker-13: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /DoctorClinicApp/src/main/java
+2025-07-25 09:55:37,100 [Worker-13: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /DoctorClinicApp/src/main/resources
+2025-07-25 09:55:37,106 [Worker-13: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /DoctorClinicApp/src/main/resources
+2025-07-25 09:55:37,113 [Worker-13: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /DoctorClinicApp/src/test/java
+2025-07-25 09:55:37,115 [Worker-13: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /DoctorClinicApp/src/test/resources
+2025-07-25 09:55:37,397 [Worker-13: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 1 sec
+2025-07-25 09:55:37,399 [Worker-13: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-07-25 09:55:37,834 [Worker-13: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.doctorclinic:doctorclinic:0.0.1-SNAPSHOT @ C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinicApp\pom.xml.
+2025-07-25 09:55:38,451 [Worker-13: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /DoctorClinicApp/src/main/java
+2025-07-25 09:55:38,452 [Worker-13: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /DoctorClinicApp/src/main/resources
+2025-07-25 09:55:38,454 [Worker-13: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /DoctorClinicApp/src/main/resources
+2025-07-25 09:55:38,455 [Worker-13: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /DoctorClinicApp/src/test/java
+2025-07-25 09:55:38,456 [Worker-13: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /DoctorClinicApp/src/test/resources
+2025-07-25 09:55:38,699 [Worker-13: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2025-07-25 09:55:39,006 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-25 09:55:39,021 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 09:55:39,026 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinicApp\src\test\resources
+2025-07-25 09:59:09,404 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-07-25 10:03:04,933 [Worker-5: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.doctorclinic:doctorclinic:0.0.1-SNAPSHOT @ C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\pom.xml.
+2025-07-25 10:03:05,806 [Worker-5: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-devtools/3.5.4/spring-boot-devtools-3.5.4.pom
+2025-07-25 10:03:05,822 [Worker-5: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-devtools/3.5.4/spring-boot-devtools-3.5.4.pom
+2025-07-25 10:03:06,104 [Worker-5: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-devtools/3.5.4/spring-boot-devtools-3.5.4.jar
+2025-07-25 10:03:06,139 [Worker-5: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-devtools/3.5.4/spring-boot-devtools-3.5.4.jar
+2025-07-25 10:03:07,384 [Worker-5: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /DoctorClinic/src/main/java
+2025-07-25 10:03:07,388 [Worker-5: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /DoctorClinic/src/main/resources
+2025-07-25 10:03:07,408 [Worker-5: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /DoctorClinic/src/main/resources
+2025-07-25 10:03:07,425 [Worker-5: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /DoctorClinic/src/test/java
+2025-07-25 10:03:07,430 [Worker-5: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /DoctorClinic/src/test/resources
+2025-07-25 10:03:08,036 [Worker-4: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-devtools/3.5.4/spring-boot-devtools-3.5.4-sources.jar
+2025-07-25 10:03:08,059 [Worker-4: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-devtools/3.5.4/spring-boot-devtools-3.5.4-sources.jar
+2025-07-25 10:03:08,068 [Worker-4: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-devtools:3.5.4
+2025-07-25 10:03:09,773 [Worker-5: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 6 sec
+2025-07-25 10:03:09,781 [Worker-5: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-07-25 10:03:10,628 [Worker-5: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.doctorclinic:doctorclinic:0.0.1-SNAPSHOT @ C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\pom.xml.
+2025-07-25 10:03:12,261 [Worker-5: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /DoctorClinic/src/main/java
+2025-07-25 10:03:12,263 [Worker-5: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /DoctorClinic/src/main/resources
+2025-07-25 10:03:12,264 [Worker-5: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /DoctorClinic/src/main/resources
+2025-07-25 10:03:12,266 [Worker-5: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /DoctorClinic/src/test/java
+2025-07-25 10:03:12,268 [Worker-5: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /DoctorClinic/src/test/resources
+2025-07-25 10:03:13,430 [Worker-5: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 2.00 sec, update config takes 1.00 sec 
+2025-07-25 10:03:15,339 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-25 10:03:15,369 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 10:03:15,378 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-25 10:09:01,815 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-25 10:09:01,823 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 10:09:01,830 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-25 10:10:41,573 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 10:10:41,575 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 10:10:41,579 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-25 10:10:54,642 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 10:10:54,644 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 10:10:54,649 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-25 10:11:04,055 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 10:11:04,057 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 10:11:04,061 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-25 10:12:13,172 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-25 10:12:13,183 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 10:12:13,187 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-25 10:12:58,176 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-25 10:12:58,185 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 10:12:58,190 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-25 10:13:02,646 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-25 10:13:02,653 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 10:13:02,657 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-25 10:13:13,490 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 10:13:13,492 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 10:13:13,495 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-25 10:13:32,265 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 10:13:32,267 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 10:13:32,271 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-25 10:13:40,251 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 10:13:40,253 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 10:13:40,256 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-25 10:17:08,062 [Worker-3: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-07-25 10:17:08,636 [Worker-3: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.doctorclinic:doctorclinic:0.0.1-SNAPSHOT @ C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\pom.xml.
+2025-07-25 10:17:09,414 [Worker-3: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /DoctorClinic/src/main/java
+2025-07-25 10:17:09,416 [Worker-3: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /DoctorClinic/src/main/resources
+2025-07-25 10:17:09,417 [Worker-3: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /DoctorClinic/src/main/resources
+2025-07-25 10:17:09,418 [Worker-3: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /DoctorClinic/src/test/java
+2025-07-25 10:17:09,419 [Worker-3: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /DoctorClinic/src/test/resources
+2025-07-25 10:17:09,826 [Worker-3: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 1.00 sec, update config takes 0.00 sec 
+2025-07-25 10:17:10,221 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-25 10:17:10,248 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 10:17:10,257 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-25 10:22:02,349 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-25 10:22:02,357 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 10:22:02,361 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-25 10:22:32,501 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-25 10:22:32,508 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 10:22:32,511 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-25 10:22:34,501 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-25 10:22:34,513 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 10:22:34,517 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-25 10:22:50,595 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-25 10:22:50,608 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 10:22:50,613 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-25 10:22:58,521 [Worker-6: Launching DoctorClinic - DoctorClinicApplication] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.doctorclinic:doctorclinic:0.0.1-SNAPSHOT @ C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\pom.xml.
+2025-07-25 10:22:58,813 [Worker-6: Launching DoctorClinic - DoctorClinicApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-jasper/10.1.43/tomcat-embed-jasper-10.1.43.pom
+2025-07-25 10:22:58,820 [Worker-6: Launching DoctorClinic - DoctorClinicApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-jasper/10.1.43/tomcat-embed-jasper-10.1.43.pom
+2025-07-25 10:22:58,838 [Worker-6: Launching DoctorClinic - DoctorClinicApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-annotations-api/10.1.43/tomcat-annotations-api-10.1.43.pom
+2025-07-25 10:22:58,844 [Worker-6: Launching DoctorClinic - DoctorClinicApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-annotations-api/10.1.43/tomcat-annotations-api-10.1.43.pom
+2025-07-25 10:22:58,955 [Worker-6: Launching DoctorClinic - DoctorClinicApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-jasper/10.1.43/tomcat-embed-jasper-10.1.43.jar
+2025-07-25 10:22:59,069 [Worker-6: Launching DoctorClinic - DoctorClinicApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-jasper/10.1.43/tomcat-embed-jasper-10.1.43.jar
+2025-07-25 10:22:59,081 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-annotations-api/10.1.43/tomcat-annotations-api-10.1.43.jar
+2025-07-25 10:22:59,086 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-annotations-api/10.1.43/tomcat-annotations-api-10.1.43.jar
+2025-07-25 10:23:00,290 [Worker-12: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-jasper/10.1.43/tomcat-embed-jasper-10.1.43-sources.jar
+2025-07-25 10:23:00,395 [Worker-12: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-jasper/10.1.43/tomcat-embed-jasper-10.1.43-sources.jar
+2025-07-25 10:23:00,402 [Worker-12: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.tomcat.embed:tomcat-embed-jasper:10.1.43
+2025-07-25 10:23:00,443 [Worker-12: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-annotations-api/10.1.43/tomcat-annotations-api-10.1.43-sources.jar
+2025-07-25 10:23:00,452 [Worker-12: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-annotations-api/10.1.43/tomcat-annotations-api-10.1.43-sources.jar
+2025-07-25 10:23:00,459 [Worker-12: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.tomcat:tomcat-annotations-api:10.1.43
+2025-07-25 10:25:43,770 [Worker-16: Launching DoctorClinic - DoctorClinicApplication] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.doctorclinic:doctorclinic:0.0.1-SNAPSHOT @ C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\pom.xml.
+2025-07-25 10:25:44,534 [Worker-16: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-25 10:25:44,556 [Worker-16: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 10:25:44,563 [Worker-16: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-25 10:25:45,035 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-25 10:25:45,038 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 10:25:45,042 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-25 10:27:02,377 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-25 10:27:02,384 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 10:27:02,389 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-25 10:27:31,718 [Worker-12: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.doctorclinic:doctorclinic:0.0.1-SNAPSHOT @ C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\pom.xml.
+2025-07-25 10:27:56,052 [Worker-15: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.doctorclinic:doctorclinic:0.0.1-SNAPSHOT @ C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\pom.xml.
+2025-07-25 10:27:56,794 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 10:27:56,796 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 10:27:56,801 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-25 10:27:58,116 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-25 10:27:58,133 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 10:27:58,137 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-25 10:38:25,191 [Worker-20: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-07-25 10:38:25,520 [Worker-20: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.doctorclinic:doctorclinic:0.0.1-SNAPSHOT @ C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\pom.xml.
+2025-07-25 10:38:26,119 [Worker-20: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /DoctorClinic/src/main/java
+2025-07-25 10:38:26,120 [Worker-20: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /DoctorClinic/src/main/resources
+2025-07-25 10:38:26,121 [Worker-20: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /DoctorClinic/src/main/resources
+2025-07-25 10:38:26,122 [Worker-20: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /DoctorClinic/src/test/java
+2025-07-25 10:38:26,123 [Worker-20: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /DoctorClinic/src/test/resources
+2025-07-25 10:38:26,463 [Worker-20: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2025-07-25 10:38:26,804 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-25 10:38:26,825 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 10:38:26,833 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-25 10:38:38,887 [Worker-12: Launching DoctorClinic - DoctorClinicApplication] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.doctorclinic:doctorclinic:0.0.1-SNAPSHOT @ C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\pom.xml.
+2025-07-25 10:38:39,108 [Worker-12: Launching DoctorClinic - DoctorClinicApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-jasper/10.1.42/tomcat-embed-jasper-10.1.42.pom
+2025-07-25 10:38:39,115 [Worker-12: Launching DoctorClinic - DoctorClinicApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-jasper/10.1.42/tomcat-embed-jasper-10.1.42.pom
+2025-07-25 10:38:39,132 [Worker-12: Launching DoctorClinic - DoctorClinicApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-annotations-api/10.1.42/tomcat-annotations-api-10.1.42.pom
+2025-07-25 10:38:39,137 [Worker-12: Launching DoctorClinic - DoctorClinicApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-annotations-api/10.1.42/tomcat-annotations-api-10.1.42.pom
+2025-07-25 10:38:39,158 [Worker-12: Launching DoctorClinic - DoctorClinicApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/jakarta/servlet/jsp/jstl/jakarta.servlet.jsp.jstl-api/3.0.2/jakarta.servlet.jsp.jstl-api-3.0.2.pom
+2025-07-25 10:38:39,164 [Worker-12: Launching DoctorClinic - DoctorClinicApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jakarta/servlet/jsp/jstl/jakarta.servlet.jsp.jstl-api/3.0.2/jakarta.servlet.jsp.jstl-api-3.0.2.pom
+2025-07-25 10:38:39,186 [Worker-12: Launching DoctorClinic - DoctorClinicApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/jakarta/el/jakarta.el-api/5.0.0/jakarta.el-api-5.0.0.pom
+2025-07-25 10:38:39,195 [Worker-12: Launching DoctorClinic - DoctorClinicApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jakarta/el/jakarta.el-api/5.0.0/jakarta.el-api-5.0.0.pom
+2025-07-25 10:38:39,214 [Worker-12: Launching DoctorClinic - DoctorClinicApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/glassfish/web/jakarta.servlet.jsp.jstl/3.0.1/jakarta.servlet.jsp.jstl-3.0.1.pom
+2025-07-25 10:38:39,226 [Worker-12: Launching DoctorClinic - DoctorClinicApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/glassfish/web/jakarta.servlet.jsp.jstl/3.0.1/jakarta.servlet.jsp.jstl-3.0.1.pom
+2025-07-25 10:38:39,458 [Worker-12: Launching DoctorClinic - DoctorClinicApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-jasper/10.1.42/tomcat-embed-jasper-10.1.42.jar
+2025-07-25 10:38:39,715 [Worker-12: Launching DoctorClinic - DoctorClinicApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-jasper/10.1.42/tomcat-embed-jasper-10.1.42.jar
+2025-07-25 10:38:39,725 [BasicRepositoryConnector-repo.maven.apache.org-1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/jakarta/servlet/jsp/jstl/jakarta.servlet.jsp.jstl-api/3.0.2/jakarta.servlet.jsp.jstl-api-3.0.2.jar
+2025-07-25 10:38:39,738 [BasicRepositoryConnector-repo.maven.apache.org-1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jakarta/servlet/jsp/jstl/jakarta.servlet.jsp.jstl-api/3.0.2/jakarta.servlet.jsp.jstl-api-3.0.2.jar
+2025-07-25 10:38:39,753 [BasicRepositoryConnector-repo.maven.apache.org-1-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-annotations-api/10.1.42/tomcat-annotations-api-10.1.42.jar
+2025-07-25 10:38:39,755 [BasicRepositoryConnector-repo.maven.apache.org-1-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/jakarta/el/jakarta.el-api/5.0.0/jakarta.el-api-5.0.0.jar
+2025-07-25 10:38:39,759 [BasicRepositoryConnector-repo.maven.apache.org-1-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-annotations-api/10.1.42/tomcat-annotations-api-10.1.42.jar
+2025-07-25 10:38:39,769 [BasicRepositoryConnector-repo.maven.apache.org-1-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/glassfish/web/jakarta.servlet.jsp.jstl/3.0.1/jakarta.servlet.jsp.jstl-3.0.1.jar
+2025-07-25 10:38:39,776 [BasicRepositoryConnector-repo.maven.apache.org-1-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jakarta/el/jakarta.el-api/5.0.0/jakarta.el-api-5.0.0.jar
+2025-07-25 10:38:40,710 [BasicRepositoryConnector-repo.maven.apache.org-1-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/glassfish/web/jakarta.servlet.jsp.jstl/3.0.1/jakarta.servlet.jsp.jstl-3.0.1.jar
+2025-07-25 10:38:41,563 [Worker-12: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-25 10:38:41,576 [Worker-12: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 10:38:41,581 [Worker-12: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-25 10:38:41,921 [Worker-22: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-07-25 10:38:42,443 [Worker-22: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.doctorclinic:doctorclinic:0.0.1-SNAPSHOT @ C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\pom.xml.
+2025-07-25 10:38:42,493 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-jasper/10.1.42/tomcat-embed-jasper-10.1.42-sources.jar
+2025-07-25 10:38:42,552 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-jasper/10.1.42/tomcat-embed-jasper-10.1.42-sources.jar
+2025-07-25 10:38:42,559 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.tomcat.embed:tomcat-embed-jasper:10.1.42
+2025-07-25 10:38:42,595 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-annotations-api/10.1.42/tomcat-annotations-api-10.1.42-sources.jar
+2025-07-25 10:38:42,604 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-annotations-api/10.1.42/tomcat-annotations-api-10.1.42-sources.jar
+2025-07-25 10:38:42,610 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.tomcat:tomcat-annotations-api:10.1.42
+2025-07-25 10:38:42,647 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/jakarta/servlet/jsp/jstl/jakarta.servlet.jsp.jstl-api/3.0.2/jakarta.servlet.jsp.jstl-api-3.0.2-sources.jar
+2025-07-25 10:38:42,662 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jakarta/servlet/jsp/jstl/jakarta.servlet.jsp.jstl-api/3.0.2/jakarta.servlet.jsp.jstl-api-3.0.2-sources.jar
+2025-07-25 10:38:42,669 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for jakarta.servlet.jsp.jstl:jakarta.servlet.jsp.jstl-api:3.0.2
+2025-07-25 10:38:42,710 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/jakarta/el/jakarta.el-api/5.0.0/jakarta.el-api-5.0.0-sources.jar
+2025-07-25 10:38:42,740 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jakarta/el/jakarta.el-api/5.0.0/jakarta.el-api-5.0.0-sources.jar
+2025-07-25 10:38:42,746 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for jakarta.el:jakarta.el-api:5.0.0
+2025-07-25 10:38:42,785 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/glassfish/web/jakarta.servlet.jsp.jstl/3.0.1/jakarta.servlet.jsp.jstl-3.0.1-sources.jar
+2025-07-25 10:38:42,863 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/glassfish/web/jakarta.servlet.jsp.jstl/3.0.1/jakarta.servlet.jsp.jstl-3.0.1-sources.jar
+2025-07-25 10:38:42,870 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.glassfish.web:jakarta.servlet.jsp.jstl:3.0.1
+2025-07-25 10:38:43,957 [Worker-22: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /DoctorClinic/src/main/java
+2025-07-25 10:38:43,958 [Worker-22: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /DoctorClinic/src/main/resources
+2025-07-25 10:38:43,959 [Worker-22: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /DoctorClinic/src/main/resources
+2025-07-25 10:38:43,960 [Worker-22: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /DoctorClinic/src/test/java
+2025-07-25 10:38:43,961 [Worker-22: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /DoctorClinic/src/test/resources
+2025-07-25 10:38:44,355 [Worker-22: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 1.00 sec, update config takes 0.00 sec 
+2025-07-25 10:38:45,046 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-25 10:38:45,068 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 10:38:45,076 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-25 10:40:45,973 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-25 10:40:45,982 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 10:40:45,987 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-25 10:40:53,160 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-25 10:40:53,167 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 10:40:53,171 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-25 10:41:07,199 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-25 10:41:07,206 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 10:41:07,209 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-25 10:41:10,335 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-25 10:41:10,342 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 10:41:10,345 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-25 10:42:21,557 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-25 10:42:21,564 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 10:42:21,567 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-25 10:42:27,038 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-25 10:42:27,046 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 10:42:27,051 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-25 10:42:49,113 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-25 10:42:49,120 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 10:42:49,123 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-25 10:45:13,483 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-25 10:45:13,493 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 10:45:13,497 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-25 10:45:21,493 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-25 10:45:21,499 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 10:45:21,503 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-25 10:45:24,584 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-25 10:45:24,590 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 10:45:24,594 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-25 10:45:26,273 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-25 10:45:26,280 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 10:45:26,284 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-25 10:46:44,021 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 10:46:44,023 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 10:46:44,026 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-25 10:46:47,394 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 10:46:47,396 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 10:46:47,399 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-25 10:47:02,937 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 10:47:02,939 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 10:47:02,941 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-25 10:47:05,810 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 10:47:05,812 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 10:47:05,815 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-25 10:48:16,511 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-25 10:48:16,517 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 10:48:16,520 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-25 10:48:46,575 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-25 10:48:46,586 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 10:48:46,590 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-25 10:49:32,635 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-25 10:49:32,641 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 10:49:32,644 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-25 10:49:38,058 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-25 10:49:38,064 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 10:49:38,067 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-25 10:50:27,521 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-25 10:50:27,528 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 10:50:27,531 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-25 10:50:42,196 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-25 10:50:42,203 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 10:50:42,208 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-25 10:51:02,334 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-25 10:51:02,340 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 10:51:02,343 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-25 10:51:04,043 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-25 10:51:04,052 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 10:51:04,057 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-25 10:55:26,410 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 10:55:26,411 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 10:55:26,414 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-25 10:55:43,702 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 10:55:43,704 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 10:55:43,707 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-25 10:56:09,361 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 10:56:09,363 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 10:56:09,366 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-25 10:56:24,084 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 10:56:24,086 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 10:56:24,088 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-25 10:56:40,058 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 10:56:40,060 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 10:56:40,063 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-25 10:56:43,719 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 10:56:43,721 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 10:56:43,724 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-25 10:56:52,301 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 10:56:52,304 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 10:56:52,306 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-25 10:57:02,417 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 10:57:02,419 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 10:57:02,421 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-25 10:57:06,174 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 10:57:06,176 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 10:57:06,179 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-25 10:57:27,585 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 10:57:27,587 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 10:57:27,590 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-25 10:57:37,524 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 10:57:37,526 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 10:57:37,528 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-25 10:57:50,073 [Worker-23: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-25 10:57:50,082 [Worker-23: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 10:57:50,087 [Worker-23: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-25 11:09:30,858 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-25 11:09:30,867 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 11:09:30,871 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-25 11:10:31,818 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 11:10:31,820 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 11:10:31,823 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-25 11:10:45,794 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 11:10:45,796 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 11:10:45,798 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-25 11:11:04,499 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 11:11:04,501 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 11:11:04,504 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-25 11:11:47,494 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 11:11:47,496 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 11:11:47,500 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-25 11:12:02,612 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 11:12:02,614 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 11:12:02,617 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-25 11:12:51,161 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-25 11:12:51,167 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 11:12:51,169 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-25 11:13:05,827 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-25 11:13:05,833 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 11:13:05,836 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-25 11:15:26,203 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-25 11:15:26,210 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 11:15:26,213 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-25 11:16:33,542 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-25 11:16:33,548 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 11:16:33,551 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-25 11:19:12,912 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-25 11:19:12,919 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 11:19:12,922 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-25 11:25:56,865 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-25 11:25:56,922 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 11:25:56,928 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-25 11:31:38,943 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 11:31:38,945 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 11:31:38,947 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-25 11:34:36,067 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-25 11:34:36,073 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 11:34:36,076 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-25 11:39:03,925 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 11:39:03,927 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 11:39:03,929 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-25 11:42:38,045 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-25 11:42:38,054 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 11:42:38,058 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-25 11:45:40,039 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-25 11:45:40,046 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 11:45:40,049 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-25 11:45:52,227 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-25 11:45:52,234 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 11:45:52,237 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-25 11:46:06,383 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 11:46:06,385 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 11:46:06,388 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-25 11:47:05,938 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-25 11:47:05,944 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 11:47:05,947 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-25 11:47:19,076 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-25 11:47:19,085 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 11:47:19,088 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-25 11:49:29,321 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-25 11:49:29,333 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 11:49:29,337 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-25 11:52:06,172 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-25 11:52:06,182 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 11:52:06,240 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-25 11:52:16,870 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-25 11:52:16,879 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 11:52:16,882 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-25 11:52:21,142 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-25 11:52:21,148 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 11:52:21,151 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-25 11:52:38,460 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-25 11:52:38,466 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 11:52:38,469 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-25 11:52:52,525 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-25 11:52:52,531 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 11:52:52,533 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-25 11:53:05,470 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-25 11:53:05,476 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 11:53:05,483 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-25 11:54:02,937 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-25 11:54:02,944 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 11:54:02,947 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-25 11:54:11,244 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-25 11:54:11,249 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 11:54:11,252 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-25 11:55:05,785 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-25 11:55:05,791 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 11:55:05,794 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-25 11:55:08,042 [Worker-3: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-25 11:55:08,049 [Worker-3: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 11:55:08,052 [Worker-3: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-25 11:56:46,180 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-25 11:56:46,186 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 11:56:46,189 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-25 11:57:55,292 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-25 11:57:55,299 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 11:57:55,302 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-25 11:58:46,762 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-25 11:58:46,768 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 11:58:46,771 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-25 11:59:17,645 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-25 11:59:17,668 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 11:59:17,675 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-25 12:00:02,900 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-25 12:00:02,909 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-25 12:00:02,914 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-26 11:06:33,962 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-07-27 17:17:07,743 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-07-27 17:27:04,954 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-27 17:27:04,993 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-27 17:27:05,005 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-27 17:27:16,643 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-27 17:27:16,644 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-27 17:27:16,648 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-27 17:27:27,703 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-27 17:27:27,705 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-27 17:27:27,711 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-27 17:32:37,010 [Worker-23: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-27 17:32:37,013 [Worker-23: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-27 17:32:37,017 [Worker-23: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-27 17:36:33,629 [Worker-24: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-27 17:36:33,640 [Worker-24: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-27 17:36:33,646 [Worker-24: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-27 17:44:14,906 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-27 17:44:14,916 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-27 17:44:14,922 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-27 17:44:36,724 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-27 17:44:36,725 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-27 17:44:36,728 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-27 17:50:36,810 [Worker-16: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-27 17:50:36,812 [Worker-16: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-27 17:50:36,822 [Worker-16: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-27 17:52:12,537 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-27 17:52:12,539 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-27 17:52:12,544 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-27 17:52:22,852 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-27 17:52:22,854 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-27 17:52:22,860 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-27 17:58:10,814 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-27 17:58:10,818 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-27 17:58:10,825 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-27 17:58:23,729 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-27 17:58:23,731 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-27 17:58:23,736 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-27 17:59:20,178 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-27 17:59:20,181 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-27 17:59:20,185 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-27 18:00:02,168 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-27 18:00:02,171 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-27 18:00:02,175 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-27 18:00:22,544 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-27 18:00:22,546 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-27 18:00:22,550 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-27 18:00:33,816 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-27 18:00:33,818 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-27 18:00:33,821 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-27 18:00:44,021 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-27 18:00:44,023 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-27 18:00:44,028 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-27 18:00:55,733 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-27 18:00:55,735 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-27 18:00:55,739 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-27 18:01:01,916 [Worker-23: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-27 18:01:01,918 [Worker-23: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-27 18:01:01,923 [Worker-23: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-27 18:21:02,860 [Worker-29: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-27 18:21:02,871 [Worker-29: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2025-07-27 18:21:02,892 [Worker-29: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-28 17:21:04,137 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-07-28 17:21:40,518 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-28 17:21:40,551 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2025-07-28 17:21:40,565 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-28 17:21:47,188 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-28 17:21:47,199 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2025-07-28 17:21:47,213 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-28 17:22:36,725 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-28 17:22:36,735 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2025-07-28 17:22:36,748 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-28 17:23:07,838 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-28 17:23:07,843 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-28 17:23:07,848 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-28 17:23:12,339 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-28 17:23:12,343 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-28 17:23:12,347 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-28 17:23:27,778 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-28 17:23:27,782 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-28 17:23:27,786 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-28 17:26:21,525 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-28 17:26:21,539 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2025-07-28 17:26:21,554 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-28 17:26:26,898 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-28 17:26:26,907 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2025-07-28 17:26:26,921 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-28 17:26:50,028 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-28 17:26:50,037 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2025-07-28 17:26:50,048 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-28 17:27:05,241 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-28 17:27:05,244 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-28 17:27:05,248 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-28 17:27:30,490 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-28 17:27:30,494 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-28 17:27:30,499 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-28 17:28:26,232 [Worker-1: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-28 17:28:26,238 [Worker-1: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-28 17:28:26,242 [Worker-1: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-28 17:33:15,080 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-28 17:33:15,087 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-28 17:33:15,093 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-28 17:33:19,461 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-28 17:33:19,465 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-28 17:33:19,468 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-28 17:33:37,916 [Worker-7: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-28 17:33:37,929 [Worker-7: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2025-07-28 17:33:37,952 [Worker-7: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-28 17:40:41,236 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-28 17:40:41,249 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2025-07-28 17:40:41,285 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-28 17:40:55,570 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-28 17:40:55,574 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-28 17:40:55,577 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-28 17:45:50,539 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-28 17:45:50,545 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-28 17:45:50,549 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-28 17:48:39,530 [Worker-15: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-28 17:48:39,545 [Worker-15: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2025-07-28 17:48:39,557 [Worker-15: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-28 17:49:50,093 [Worker-14: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-28 17:49:50,103 [Worker-14: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2025-07-28 17:49:50,116 [Worker-14: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-28 17:55:24,246 [Worker-15: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-28 17:55:24,255 [Worker-15: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2025-07-28 17:55:24,264 [Worker-15: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-28 17:56:41,801 [Worker-17: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-28 17:56:41,807 [Worker-17: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-28 17:56:41,812 [Worker-17: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-28 17:57:56,473 [Worker-15: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-28 17:57:56,481 [Worker-15: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-28 17:57:56,485 [Worker-15: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-28 18:00:16,909 [Worker-22: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-28 18:00:16,913 [Worker-22: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-28 18:00:16,917 [Worker-22: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-28 20:13:45,569 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-28 20:13:45,574 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-28 20:13:45,577 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-31 22:26:07,414 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-07-31 22:26:12,951 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-31 22:26:12,975 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2025-07-31 22:26:13,004 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-31 22:31:09,298 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-31 22:31:09,303 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-31 22:31:09,308 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-31 23:20:36,389 [Worker-3: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-31 23:20:36,393 [Worker-3: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-31 23:20:36,399 [Worker-3: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-31 23:22:36,612 [Worker-2: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-31 23:22:36,616 [Worker-2: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-31 23:22:36,621 [Worker-2: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-31 23:29:29,727 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-07-31 23:36:32,850 [Worker-5: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-07-31 23:36:33,757 [Worker-5: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.doctorclinic:doctorclinic:0.0.1-SNAPSHOT @ C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\pom.xml.
+2025-07-31 23:36:35,227 [Worker-5: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /DoctorClinic/src/main/java
+2025-07-31 23:36:35,230 [Worker-5: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /DoctorClinic/src/main/resources
+2025-07-31 23:36:35,231 [Worker-5: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /DoctorClinic/src/main/resources
+2025-07-31 23:36:35,232 [Worker-5: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /DoctorClinic/src/test/java
+2025-07-31 23:36:35,234 [Worker-5: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /DoctorClinic/src/test/resources
+2025-07-31 23:36:35,797 [Worker-5: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 2.00 sec, update config takes 0.00 sec 
+2025-07-31 23:36:36,441 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-31 23:36:36,466 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2025-07-31 23:36:36,490 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-31 23:42:06,703 [Worker-27: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-31 23:42:06,706 [Worker-27: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-31 23:42:06,711 [Worker-27: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-31 23:45:44,746 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-31 23:45:44,748 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-31 23:45:44,754 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-31 23:45:51,105 [Worker-11: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-31 23:45:51,108 [Worker-11: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-31 23:45:51,114 [Worker-11: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-31 23:47:51,871 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-31 23:47:51,874 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-31 23:47:51,877 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-31 23:48:52,505 [Worker-11: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-31 23:48:52,509 [Worker-11: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-31 23:48:52,513 [Worker-11: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-31 23:52:58,169 [Worker-29: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-31 23:52:58,172 [Worker-29: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-31 23:52:58,176 [Worker-29: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-07-31 23:57:02,472 [Worker-24: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-31 23:57:02,475 [Worker-24: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-31 23:57:02,479 [Worker-24: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-08-01 00:34:58,307 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-01 00:34:58,309 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-01 00:34:58,313 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-08-01 00:35:03,637 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-01 00:35:03,640 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-01 00:35:03,643 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-08-01 00:36:00,440 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-01 00:36:00,449 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 6 resources from src\main\resources to target\classes
+2025-08-01 00:36:00,455 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-08-01 00:36:45,558 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-01 00:36:45,564 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 6 resources from src\main\resources to target\classes
+2025-08-01 00:36:45,570 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-08-01 16:20:17,825 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-01 16:20:17,845 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 6 resources from src\main\resources to target\classes
+2025-08-01 16:20:17,862 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-08-03 18:36:25,592 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-08-03 18:56:03,237 [Worker-11: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-03 18:56:03,264 [Worker-11: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 6 resources from src\main\resources to target\classes
+2025-08-03 18:56:03,297 [Worker-11: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-08-04 12:08:03,148 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-08-04 12:22:14,014 [Worker-20: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-04 12:22:14,045 [Worker-20: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 6 resources from src\main\resources to target\classes
+2025-08-04 12:22:14,064 [Worker-20: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-08-04 12:33:27,404 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-04 12:33:27,409 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-04 12:33:27,413 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-08-04 12:36:52,738 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-04 12:36:52,750 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-04 12:36:52,756 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-08-04 12:37:03,093 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-04 12:37:03,098 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-04 12:37:03,101 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-08-04 12:37:10,004 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-04 12:37:10,015 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-04 12:37:10,019 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-08-04 12:39:07,358 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-04 12:39:07,363 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-04 12:39:07,369 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-08-04 12:39:23,857 [Worker-12: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-04 12:39:23,877 [Worker-12: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 6 resources from src\main\resources to target\classes
+2025-08-04 12:39:23,898 [Worker-12: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-08-04 12:42:39,402 [Worker-10: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-04 12:42:39,420 [Worker-10: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-04 12:42:39,429 [Worker-10: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-08-04 12:45:38,477 [Worker-1: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-04 12:45:38,533 [Worker-1: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 6 resources from src\main\resources to target\classes
+2025-08-04 12:45:38,561 [Worker-1: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-08-04 12:47:31,990 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-04 12:47:31,999 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-04 12:47:32,004 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-08-04 12:50:29,410 [Worker-10: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-04 12:50:29,420 [Worker-10: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-04 12:50:29,427 [Worker-10: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-08-04 12:51:39,899 [Worker-17: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-04 12:51:39,907 [Worker-17: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-04 12:51:39,913 [Worker-17: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-08-04 12:55:20,056 [Worker-17: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-04 12:55:20,076 [Worker-17: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 6 resources from src\main\resources to target\classes
+2025-08-04 12:55:20,098 [Worker-17: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-08-04 12:56:24,857 [Worker-11: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-04 12:56:24,875 [Worker-11: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 6 resources from src\main\resources to target\classes
+2025-08-04 12:56:24,896 [Worker-11: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-08-04 12:56:58,090 [Worker-17: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-04 12:56:58,096 [Worker-17: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-04 12:56:58,100 [Worker-17: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-08-04 12:59:20,875 [Worker-10: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-04 12:59:20,891 [Worker-10: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 6 resources from src\main\resources to target\classes
+2025-08-04 12:59:20,912 [Worker-10: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-08-04 13:00:39,735 [Worker-12: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-04 13:00:39,752 [Worker-12: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 6 resources from src\main\resources to target\classes
+2025-08-04 13:00:39,773 [Worker-12: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources
+2025-08-04 13:02:48,420 [Worker-12: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-04 13:02:48,435 [Worker-12: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-04 13:02:48,442 [Worker-12: Launching DoctorClinic - DoctorClinicApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Arghyadeep Singha\OneDrive\Desktop\Ardent Project\DoctorClinic\src\test\resources

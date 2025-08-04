@@ -1,0 +1,135 @@
+package com.doctorclinic.controller;
+
+import com.doctorclinic.model.Appointment;
+import com.doctorclinic.model.Doctor;
+import com.doctorclinic.model.User;
+import com.doctorclinic.repository.AppointmentRepository;
+import com.doctorclinic.repository.DoctorRepository;
+import com.doctorclinic.repository.UserRepository;
+
+import jakarta.servlet.http.HttpSession;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.*;
+import org.springframework.web.servlet.mvc.support.RedirectAttributes;
+
+import java.util.*;
+import java.util.stream.Collectors;
+
+@Controller
+@RequestMapping("/admin") // Base path for all admin-related endpoints
+public class AdminController {
+
+    @Autowired
+    private UserRepository userRepo;
+
+    @Autowired
+    private DoctorRepository doctorRepo;
+
+    @Autowired
+    private AppointmentRepository appointmentRepo;
+
+    /**
+     * Displays the Admin Dashboard.
+     * Accessible at /admin/dashboard
+     * Shows a summary of appointments and a list of registered doctors.
+     */
+    @GetMapping("/dashboard")
+    public String showAdminDashboard(HttpSession session, Model model, RedirectAttributes redirectAttributes) {
+        User adminUser = (User) session.getAttribute("loggedInUser");
+        // Security check: Ensure only ADMIN users can access this dashboard
+        if (adminUser == null || adminUser.getRole() != User.Role.ADMIN) {
+            redirectAttributes.addFlashAttribute("error", "Access denied. Please login as admin.");
+            return "redirect:/login";
+        }
+
+        // Fetch all appointments to display in the summary
+        List<Appointment> appointments = appointmentRepo.findAll();
+        Map<User, List<String>> patientDoctorMap = new HashMap<>();
+
+        // Group appointments by patient to show which doctors each patient has appointments with
+        for (Appointment appointment : appointments) {
+            User patient = appointment.getUser();
+            Doctor doctor = appointment.getDoctor();
+
+            if (patient != null && doctor != null) {
+                patientDoctorMap
+                        .computeIfAbsent(patient, k -> new ArrayList<>())
+                        .add(doctor.getName());
+            }
+        }
+
+        model.addAttribute("patientDoctorMap", patientDoctorMap);
+        model.addAttribute("loggedInUser", adminUser);
+        model.addAttribute("doctors", doctorRepo.findAll()); // Add all doctors to display on the admin dashboard
+        return "adminDashboard"; // JSP name for the admin dashboard view
+    }
+
+    /**
+     * Displays the form for an admin to add a new doctor profile.
+     * Accessible at /admin/addDoctor
+     * This form allows linking a new doctor profile to an existing user account
+     * that has the 'DOCTOR' role but is not yet associated with a doctor profile.
+     */
+    @GetMapping("/addDoctor")
+    public String showAddDoctorForm(HttpSession session, Model model, RedirectAttributes redirectAttributes) {
+        User adminUser = (User) session.getAttribute("loggedInUser");
+        // Security check: Ensure only ADMIN users can access this form
+        if (adminUser == null || adminUser.getRole() != User.Role.ADMIN) {
+            redirectAttributes.addFlashAttribute("error", "Access denied. Only admins can add doctors.");
+            return "redirect:/login";
+        }
+
+        // Find all users who have the DOCTOR role but are not yet linked to a Doctor profile.
+        // This is crucial for the dropdown list in the form.
+        List<User> unassignedDoctorUsers = userRepo.findByRole(User.Role.DOCTOR).stream()
+                .filter(user -> doctorRepo.findByUser(user) == null) // Filter out users already linked to a doctor
+                .collect(Collectors.toList());
+
+        model.addAttribute("unassignedDoctorUsers", unassignedDoctorUsers); // Pass list to JSP
+        model.addAttribute("doctor", new Doctor()); // Create a new Doctor object for form binding
+        model.addAttribute("loggedInUser", adminUser); // For display in header/JSP
+        return "addDoctor"; // JSP name for the add doctor form view
+    }
+
+    /**
+     * Processes the submission of the "Add Doctor" form.
+     * Accessible at /admin/addDoctor (POST request)
+     * Creates a new Doctor profile and links it to the selected user account.
+     */
+    @PostMapping("/addDoctor")
+    public String processAddDoctor(@ModelAttribute Doctor doctor, // Binds form fields to Doctor object
+                                   @RequestParam Long userId, // Captures the selected user ID from the dropdown
+                                   HttpSession session,
+                                   RedirectAttributes redirectAttributes) {
+
+        User adminUser = (User) session.getAttribute("loggedInUser");
+        // Security check: Ensure only ADMIN users can perform this action
+        if (adminUser == null || adminUser.getRole() != User.Role.ADMIN) {
+            redirectAttributes.addFlashAttribute("error", "Access denied. Only admins can add doctors.");
+            return "redirect:/login";
+        }
+
+        // Validate the selected user ID
+        Optional<User> userOptional = userRepo.findById(userId);
+        if (userOptional.isEmpty() || userOptional.get().getRole() != User.Role.DOCTOR) {
+            redirectAttributes.addFlashAttribute("error", "Invalid user selected for doctor. Please select a DOCTOR role user.");
+            return "redirect:/admin/addDoctor"; // Redirect back to the form with an error
+        }
+
+        User doctorUser = userOptional.get();
+
+        // Check if this user is already associated with a Doctor profile to prevent duplicates
+        if (doctorRepo.findByUser(doctorUser) != null) {
+            redirectAttributes.addFlashAttribute("error", "This user is already registered as a doctor.");
+            return "redirect:/admin/addDoctor"; // Redirect back to the form with an error
+        }
+
+        doctor.setUser(doctorUser); // Link the newly created Doctor profile to the selected User
+        doctorRepo.save(doctor); // Save the new Doctor profile to the database
+        redirectAttributes.addFlashAttribute("successMessage", "Doctor '" + doctor.getName() + "' added successfully!");
+        return "redirect:/admin/dashboard"; // Redirect back to the admin dashboard after successful addition
+    }
+}

@@ -1,0 +1,124 @@
+package com.doctorclinic.controller;
+
+import com.doctorclinic.model.Appointment;
+import com.doctorclinic.model.Doctor;
+import com.doctorclinic.model.User;
+import com.doctorclinic.repository.AppointmentRepository;
+import com.doctorclinic.repository.DoctorRepository;
+import com.doctorclinic.repository.UserRepository;
+
+import jakarta.servlet.http.HttpSession;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.*;
+import org.springframework.web.servlet.mvc.support.RedirectAttributes;
+
+import java.util.*;
+import java.util.stream.Collectors;
+
+@Controller
+@RequestMapping("/admin") // Base path for all admin-related endpoints
+public class AdminController {
+
+    @Autowired
+    private UserRepository userRepo;
+
+    @Autowired
+    private DoctorRepository doctorRepo;
+
+    @Autowired
+    private AppointmentRepository appointmentRepo;
+
+    /**
+     * Displays the Admin Dashboard.
+     * Accessible at /admin/dashboard
+     */
+    @GetMapping("/dashboard")
+    public String showAdminDashboard(HttpSession session, Model model, RedirectAttributes redirectAttributes) {
+        User adminUser = (User) session.getAttribute("loggedInUser");
+        if (adminUser == null || adminUser.getRole() != User.Role.ADMIN) {
+            redirectAttributes.addFlashAttribute("error", "Access denied. Please login as admin.");
+            return "redirect:/login"; // Redirect back to login if not admin
+        }
+
+        List<Appointment> appointments = appointmentRepo.findAll();
+        Map<User, List<String>> patientDoctorMap = new HashMap<>();
+
+        for (Appointment appointment : appointments) {
+            User patient = appointment.getUser();
+            Doctor doctor = appointment.getDoctor();
+
+            if (patient != null && doctor != null) {
+                patientDoctorMap
+                        .computeIfAbsent(patient, k -> new ArrayList<>())
+                        .add(doctor.getName());
+            }
+        }
+
+        model.addAttribute("patientDoctorMap", patientDoctorMap);
+        model.addAttribute("loggedInUser", adminUser);
+        model.addAttribute("doctors", doctorRepo.findAll()); // Add all doctors to admin dashboard
+        return "adminDashboard"; // Still points to the existing JSP
+    }
+
+    /**
+     * Displays the form to add a new doctor.
+     * Accessible at /admin/addDoctor
+     */
+    @GetMapping("/addDoctor")
+    public String showAddDoctorForm(HttpSession session, Model model, RedirectAttributes redirectAttributes) {
+        User adminUser = (User) session.getAttribute("loggedInUser");
+        if (adminUser == null || adminUser.getRole() != User.Role.ADMIN) {
+            redirectAttributes.addFlashAttribute("error", "Access denied. Only admins can add doctors.");
+            return "redirect:/login";
+        }
+
+        // Find all users who have the DOCTOR role but are not yet associated with a Doctor profile
+        List<User> unassignedDoctorUsers = userRepo.findByRole(User.Role.DOCTOR).stream()
+                .filter(user -> doctorRepo.findByUser(user) == null)
+                .collect(Collectors.toList());
+
+        model.addAttribute("unassignedDoctorUsers", unassignedDoctorUsers);
+        model.addAttribute("doctor", new Doctor()); // For form binding
+        model.addAttribute("loggedInUser", adminUser);
+        return "addDoctor"; // Name of the new JSP file
+    }
+
+    /**
+     * Processes the submission of the "Add Doctor" form.
+     * Accessible at /admin/addDoctor (POST)
+     */
+    @PostMapping("/addDoctor")
+    public String processAddDoctor(@ModelAttribute Doctor doctor,
+                                   @RequestParam Long userId, // To link with an existing user
+                                   HttpSession session,
+                                   RedirectAttributes redirectAttributes) {
+
+        User adminUser = (User) session.getAttribute("loggedInUser");
+        if (adminUser == null || adminUser.getRole() != User.Role.ADMIN) {
+            redirectAttributes.addFlashAttribute("error", "Access denied. Only admins can add doctors.");
+            return "redirect:/login";
+        }
+
+        Optional<User> userOptional = userRepo.findById(userId);
+        if (userOptional.isEmpty() || userOptional.get().getRole() != User.Role.DOCTOR) {
+            redirectAttributes.addFlashAttribute("error", "Invalid user selected for doctor. Please select a DOCTOR role user.");
+            return "redirect:/admin/addDoctor"; // Redirect back to form
+        }
+
+        User doctorUser = userOptional.get();
+
+        // Check if this user is already a doctor
+        if (doctorRepo.findByUser(doctorUser) != null) {
+            redirectAttributes.addFlashAttribute("error", "This user is already registered as a doctor.");
+            return "redirect:/admin/addDoctor"; // Redirect back to form
+        }
+
+        doctor.setUser(doctorUser); // Link the Doctor profile to the User
+        doctorRepo.save(doctor);
+        redirectAttributes.addFlashAttribute("successMessage", "Doctor '" + doctor.getName() + "' added successfully!");
+        return "redirect:/admin/dashboard"; // Redirect back to the new admin dashboard path
+    }
+}

@@ -1,0 +1,5 @@
+package com.doctorclinic.controller;
+
+public class AppointmentController {
+
+}

@@ -1,0 +1,175 @@
+package com.doctorclinic.controller;
+
+import com.doctorclinic.model.Appointment;
+import com.doctorclinic.model.Doctor;
+import com.doctorclinic.model.User;
+import com.doctorclinic.repository.AppointmentRepository;
+import com.doctorclinic.repository.DoctorRepository;
+import com.doctorclinic.repository.UserRepository;
+
+import jakarta.servlet.http.HttpSession;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.*;
+import org.springframework.web.servlet.mvc.support.RedirectAttributes;
+
+import java.util.*;
+import java.util.stream.Collectors;
+import org.springframework.transaction.annotation.Transactional; // Important for managing transactions
+
+@Controller
+@RequestMapping("/admin") // Base path for all admin-related endpoints
+public class AdminController {
+
+    @Autowired
+    private UserRepository userRepo;
+
+    @Autowired
+    private DoctorRepository doctorRepo;
+
+    @Autowired
+    private AppointmentRepository appointmentRepo;
+
+    /**
+     * Displays the Admin Dashboard.
+     * Accessible at /admin/dashboard
+     * Shows a summary of appointments and a list of registered doctors.
+     */
+    @GetMapping("/dashboard")
+    public String showAdminDashboard(HttpSession session, Model model, RedirectAttributes redirectAttributes) {
+        User adminUser = (User) session.getAttribute("loggedInUser");
+        // Security check: Ensure only ADMIN users can access this dashboard
+        if (adminUser == null || adminUser.getRole() != User.Role.ADMIN) {
+            redirectAttributes.addFlashAttribute("error", "Access denied. Please login as admin.");
+            return "redirect:/login";
+        }
+
+        // Fetch all appointments to display in the summary
+        List<Appointment> appointments = appointmentRepo.findAll();
+        Map<User, List<String>> patientDoctorMap = new HashMap<>();
+
+        // Group appointments by patient to show which doctors each patient has appointments with
+        for (Appointment appointment : appointments) {
+            User patient = appointment.getUser();
+            Doctor doctor = appointment.getDoctor();
+
+            if (patient != null && doctor != null) {
+                patientDoctorMap
+                        .computeIfAbsent(patient, k -> new ArrayList<>())
+                        .add(doctor.getName());
+            }
+        }
+
+        model.addAttribute("patientDoctorMap", patientDoctorMap);
+        model.addAttribute("loggedInUser", adminUser);
+        model.addAttribute("doctors", doctorRepo.findAll()); // Add all doctors to display on the admin dashboard
+        return "adminDashboard"; // JSP name for the admin dashboard view
+    }
+
+    /**
+     * Displays the form for an admin to add a new doctor profile.
+     * Accessible at /admin/addDoctor
+     */
+    @GetMapping("/addDoctor")
+    public String showAddDoctorForm(HttpSession session, Model model, RedirectAttributes redirectAttributes) {
+        User adminUser = (User) session.getAttribute("loggedInUser");
+        // Security check: Ensure only ADMIN users can access this form
+        if (adminUser == null || adminUser.getRole() != User.Role.ADMIN) {
+            redirectAttributes.addFlashAttribute("error", "Access denied. Only admins can add doctors.");
+            return "redirect:/login";
+        }
+
+        model.addAttribute("doctor", new Doctor()); // Create a new Doctor object for form binding
+        model.addAttribute("loggedInUser", adminUser); // For display in header/JSP
+        return "addDoctor"; // JSP name for the add doctor form view
+    }
+
+    /**
+     * Processes the submission of the "Add Doctor" form.
+     */
+    @PostMapping("/addDoctor")
+    public String processAddDoctor(@ModelAttribute Doctor doctor, // Binds doctor fields (name, specialization, experience)
+                                   @RequestParam("userEmail") String userEmail, // Captures email for new user
+                                   @RequestParam("userPassword") String userPassword, // Captures password for new user
+                                   HttpSession session,
+                                   RedirectAttributes redirectAttributes) {
+
+        User adminUser = (User) session.getAttribute("loggedInUser");
+        // Security check: Ensure only ADMIN users can perform this action
+        if (adminUser == null || adminUser.getRole() != User.Role.ADMIN) {
+            redirectAttributes.addFlashAttribute("error", "Access denied. Only admins can add doctors.");
+            return "redirect:/login";
+        }
+
+        User existingUser = userRepo.findByEmail(userEmail);
+        if (existingUser != null) {
+            redirectAttributes.addFlashAttribute("error", "A user with this email already exists.");
+            return "redirect:/admin/addDoctor";
+        }
+
+        User newUser = new User();
+        newUser.setName(doctor.getName());
+        newUser.setEmail(userEmail);
+        newUser.setPassword(userPassword);
+        newUser.setRole(User.Role.DOCTOR);
+        userRepo.save(newUser);
+
+        doctor.setUser(newUser);
+        doctorRepo.save(doctor);
+
+        redirectAttributes.addFlashAttribute("successMessage", "Doctor '" + doctor.getName() + "' and associated user added successfully!");
+        return "redirect:/admin/dashboard";
+    }
+
+    /**
+     * Handles the deletion of a doctor.
+     * This method is transactional to ensure all related data is deleted together.
+     * Accessible at /admin/deleteDoctor (POST request)
+     */
+    @Transactional // This annotation ensures the whole method runs in a single transaction.
+    @PostMapping("/deleteDoctor")
+    public String deleteDoctor(@RequestParam("id") Long doctorId,
+                               HttpSession session,
+                               RedirectAttributes redirectAttributes) {
+
+        User adminUser = (User) session.getAttribute("loggedInUser");
+        // Security check: Ensure only ADMIN users can perform this action
+        if (adminUser == null || adminUser.getRole() != User.Role.ADMIN) {
+            redirectAttributes.addFlashAttribute("error", "Access denied. Only admins can delete doctors.");
+            return "redirect:/login";
+        }
+
+        // Find the doctor to be deleted
+        Optional<Doctor> doctorOptional = doctorRepo.findById(doctorId);
+        if (doctorOptional.isEmpty()) {
+            redirectAttributes.addFlashAttribute("errorMessage", "Error: Doctor not found with ID " + doctorId);
+            return "redirect:/admin/dashboard"; // Redirect back to the dashboard if doctor doesn't exist
+        }
+
+        Doctor doctor = doctorOptional.get();
+        User doctorUser = doctor.getUser();
+
+        try {
+            // Step 1: Delete all appointments associated with this doctor
+            List<Appointment> appointments = appointmentRepo.findByDoctor(doctor);
+            appointmentRepo.deleteAll(appointments);
+
+            // Step 2: Delete the Doctor's profile
+            doctorRepo.delete(doctor);
+
+            // Step 3: Delete the User account linked to the doctor
+            if (doctorUser != null) {
+                userRepo.delete(doctorUser);
+            }
+
+            redirectAttributes.addFlashAttribute("successMessage", "Doctor '" + doctor.getName() + "' and all associated data have been deleted successfully.");
+        } catch (Exception e) {
+            // Handle any exceptions that occur during deletion
+            redirectAttributes.addFlashAttribute("errorMessage", "An error occurred while deleting the doctor: " + e.getMessage());
+        }
+
+        return "redirect:/admin/dashboard"; // Redirect back to the dashboard
+    }
+}

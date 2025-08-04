@@ -1,0 +1,116 @@
+<%-- src/main/webapp/WEB-INF/jsp/index.jsp --%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<html>
+<head>
+    <title>Orgos Doctor Clinic - Home</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/style.css"> <%-- Link to your custom CSS --%>
+</head>
+<body>
+    <%-- Include Header (this already handles login/logout links in the navbar) --%>
+    <jsp:include page="common/header.jsp" />
+
+    <section class="hero-section">
+        <div class="container">
+            <c:choose>
+                <c:when test="${sessionScope.loggedInUser != null}">
+                    <%-- Display welcome message when logged in --%>
+                    <h1>Welcome, ${sessionScope.loggedInUser.name}!</h1>
+                    <p class="lead">We're glad to see you back. Explore doctors or view your appointments.</p>
+                    <div>
+                        <c:if test="${sessionScope.loggedInUser.role eq 'PATIENT'}">
+                            <a href="/userDashboard" class="btn btn-success btn-lg me-3">View Dashboard</a>
+                        </c:if>
+                        <c:if test="${sessionScope.loggedInUser.role eq 'DOCTOR'}">
+                            <a href="/doctorDashboard" class="btn btn-success btn-lg me-3">View Dashboard</a>
+                        </c:if>
+                        <c:if test="${sessionScope.loggedInUser.role eq 'ADMIN'}">
+                            <a href="/admin/dashboard" class="btn btn-success btn-lg me-3">View Dashboard</a>
+                        </c:if>
+                        <a href="/logout" class="btn btn-outline-light btn-lg">Logout</a>
+                    </div>
+                </c:when>
+                <c:otherwise>
+                    <%-- Display signup/login buttons when logged out --%>
+                    <h1>Your Health, Our Priority</h1>
+                    <p class="lead">Providing compassionate and expert care for a healthier tomorrow.</p>
+                    <div>
+                        <a href="/signup" class="btn btn-success btn-lg me-3">Get Started</a>
+                        <a href="/login" class="btn btn-outline-light btn-lg">Existing User?</a>
+                    </div>
+                </c:otherwise>
+            </c:choose>
+        </div>
+    </section>
+
+    <div class="container">
+        <section id="description" class="section-content">
+            <h2 class="section-heading">Welcome to Orgoz Clinic</h2>
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <img src="/images/clinic_interior.jpg" alt="Clinic Interior" class="img-fluid mb-3">
+                </div>
+                <div class="col-md-6">
+                    <p>At Orgoz Clinic, we are dedicated to providing comprehensive and compassionate healthcare services. Our team of experienced doctors and staff are committed to your well-being, offering personalized care tailored to your needs.</p>
+                    <p>From routine check-ups to specialized treatments, we utilize state-of-the-art technology and a patient-centric approach to ensure the best possible outcomes. Trust us to be your partner in health.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section-content">
+            <h2 class="section-heading">About Us</h2>
+            <div class="row align-items-center flex-row-reverse">
+                <div class="col-md-6">
+                    <img src="/images/about_us.jpg" alt="Our Team" class="img-fluid mb-3">
+                </div>
+                <div class="col-md-6">
+                    <p>Orgoz Clinic was founded with a vision to make quality healthcare accessible and affordable. We believe in a holistic approach to health, focusing not just on treating illnesses but also on preventative care and promoting overall wellness.</p>
+                    <p>Our clinic boasts a diverse team of specialists across various disciplines, all united by a common goal: to provide exceptional medical care with integrity and empathy. We are constantly striving to update our knowledge and technology to serve you better.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section-content">
+            <h2 class="section-heading">Contact Us</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <p>Have questions or need to schedule an appointment? Feel free to reach out to us!</p>
+                    <ul class="list-unstyled">
+                        <li><strong>Address:</strong> 123 Clinic Road, Health City, Country</li>
+                        <li><strong>Phone:</strong> +91 98765 43210</li>
+                        <li><strong>Email:</strong> info@orgozclinic.com</li>
+                        <li><strong>Hours:</strong> Mon-Fri: 9 AM - 6 PM</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <form>
+                        <div class="mb-3">
+                            <label for="contactName" class="form-label">Your Name</label>
+                            <input type="text" class="form-control" id="contactName" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="contactEmail" class="form-label">Your Email</label>
+                            <input type="email" class="form-control" id="contactEmail" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="contactMessage" class="form-label">Message</label>
+                            <textarea class="form-control" id="contactMessage" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-success">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <%-- Footer --%>
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Orgoz Doctor Clinic. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
